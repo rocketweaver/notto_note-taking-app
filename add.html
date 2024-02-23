@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Write your note!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="brand-and-slogan">
+        <span><b>Notto </b> |</span> Personal Note-Taking App
+      </h1>
+
+      <div class="write-note">
+        <form action="#" id="note-form">
+          <div class="save-and-back">
+            <a href="index.html" class="back-link">Back</a>
+            <button type="submit" id="submit-form-btn">
+              <img src="img/save-btn.svg" alt="Save" />
+            </button>
+          </div>
+          <div class="note-form-container">
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Input your note title here..."
+            />
+            <hr />
+            <textarea
+              name="note"
+              id="note"
+              placeholder="Input your note here"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/add_form.js"></script>
+  </body>
+</html>
